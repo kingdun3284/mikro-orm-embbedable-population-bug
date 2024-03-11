@@ -1,0 +1,26 @@
+{
+  "name": "mikro-orm-embbedable-population-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mikro-orm/cli": "6.1.9",
+    "@mikro-orm/core": "6.1.9",
+    "@mikro-orm/knex": "6.1.9",
+    "@mikro-orm/migrations": "6.1.9",
+    "@mikro-orm/postgresql": "6.1.9"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.2"
+  }
+}
